@@ -1,0 +1,41 @@
+\select@language {english}
+\contentsline {section}{Abstract}{ii}
+\contentsline {chapter}{Introduction}{1}
+\contentsline {chapter}{\numberline {1}Connected Worlds}{3}
+\contentsline {section}{\numberline {1.1}Connected Worlds}{3}
+\contentsline {subsection}{\numberline {1.1.1}Introduction}{3}
+\contentsline {subsection}{\numberline {1.1.2}Water Cycle}{4}
+\contentsline {subsection}{\numberline {1.1.3}Plant-Animal Relations}{5}
+\contentsline {section}{\numberline {1.2}Need for Assistive Technology}{7}
+\contentsline {chapter}{\numberline {2}The Switching State Space Model}{9}
+\contentsline {section}{\numberline {2.1}Switch Based Models}{9}
+\contentsline {subsection}{\numberline {2.1.1}Background}{11}
+\contentsline {subsubsection}{State Space Models and Hidden Markov Models}{11}
+\contentsline {subsubsection}{Forward Algorithm}{12}
+\contentsline {subsubsection}{Backward Algorithm}{13}
+\contentsline {subsubsection}{Viterbi Algorithm}{14}
+\contentsline {subsection}{\numberline {2.1.2}Switching State Space Models}{15}
+\contentsline {subsection}{\numberline {2.1.3}Interpretability of the SSSM}{15}
+\contentsline {section}{\numberline {2.2}Inference for Switching State Space Models}{18}
+\contentsline {subsection}{\numberline {2.2.1}Approximate Maximum Likelihood Estimation for Switching State Space Models}{19}
+\contentsline {subsection}{\numberline {2.2.2}Background on Inference for Probabilistic Models}{21}
+\contentsline {subsubsection}{Introduction to Bayesian Inference}{21}
+\contentsline {subsubsection}{Markov Chain Monte Carlo}{23}
+\contentsline {subsubsection}{Hamiltonian Monte Carlo and the No U-Turn Sampler}{24}
+\contentsline {subsection}{\numberline {2.2.3}Algorithm for Posterior Inference of Switching State Space Models}{25}
+\contentsline {subsubsection}{Nonidentifiability and Label Switching}{25}
+\contentsline {subsubsection}{Algorithm Sketch}{26}
+\contentsline {chapter}{\numberline {3}User Study}{30}
+\contentsline {section}{\numberline {3.1}User Study Empirical Validation}{30}
+\contentsline {section}{\numberline {3.2}Evaluation on Synthetic Data}{31}
+\contentsline {section}{\numberline {3.3}Validation of Model Interpretability}{33}
+\contentsline {subsection}{\numberline {3.3.1}Experiment 1}{33}
+\contentsline {subsection}{\numberline {3.3.2}Experiment 1 Results}{34}
+\contentsline {subsection}{\numberline {3.3.3}Experiment 2}{35}
+\contentsline {subsection}{\numberline {3.3.4}Experiment 2 Results}{37}
+\contentsline {chapter}{\numberline {4}Conclusion}{42}
+\contentsline {section}{\numberline {4.1}Future Work}{42}
+\contentsline {subsection}{\numberline {4.1.1}Bayesian Non-parametric Learning for the SSSM}{42}
+\contentsline {subsection}{\numberline {4.1.2}The SSSM as an Assistive Classroom Tool}{44}
+\contentsline {section}{\numberline {4.2}Conclusion}{44}
+\contentsline {chapter}{References}{45}
