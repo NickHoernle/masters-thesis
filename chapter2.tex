@@ -237,7 +237,7 @@ We provide a sketch of this process in Algorithm~\ref{alg:constrained_alg}. \tex
 
 \textbf{Step 2} performs MCMC sampling to approximate the posterior of the model. For the case when the value of the switch variable is known, the posterior of $X^{(m)}_t$ can be directly sampled by following the structure of a state space model. In the case where the switch variable is unknown, we have a marginalization problem over the two possible values of $S_t$. For the hidden Markov model (HMM) structure this can be efficiently computed with the forward algorithm~\citep{shumway2000time}. To formulate the HMM forward algorithm, we use the observation probabilities from the individual state space models in place of the emission probabilities of a standard HMM. Here, $\pi_{S_i}$ refers to the belief of the state of the switching variable given the evidence up to that point in time.
 
-\textbf{Step 3} uses the regime specific parameters $\Phi^{(m)}$ to make a maximum a posteriori assignment of an observation to a regime using the Viterbi algorithm, thereby specifying the value of $S_t \forall t \in [1:T]$.
+\textbf{Step 3} uses the regime specific parameters $\Phi^{(m)}$ to make a maximum \textit{a posteriori} (MAP) assignment of an observation to a regime using the Viterbi algorithm, thereby specifying the value of $S_t \forall t \in [1:T]$.
 
 \LinesNotNumbered
 \begin{algorithm}
