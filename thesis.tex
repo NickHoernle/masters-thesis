@@ -111,9 +111,9 @@
 \begin{abstract}
 Simulations that combine real world components with interactive digital media provide a rich setting for students with the potential to assist knowledge building and understanding of complex physical processes. This thesis addresses the problem of modeling the effects of multiple students' simultaneous interactions on the complex and exploratory environments such simulations provide. We work towards assisting educators with the difficult task of interpreting student exploration and we direct this research by considering the specific case of Connected Worlds, an innovative mixed reality simulation.
 
-Connected Worlds is introduced to present a case study that motivates the need for providing assistive tools for teachers when working with complex exploratory learning simulations. The multi-person and immersive setting means that it is hard for the teacher to track the session and to identify salient learning opportunities. We aim to remove this burden from the teacher by extracting information from the log files of the simulation. Our goal is to find information in the logs that may be useful to a teacher when reviewing a specific session with a class of students.
+% Connected Worlds is introduced to present a case study that motivates the need for providing assistive tools for teachers when working with complex exploratory learning simulations. The multi-person and immersive setting means that it is hard for the teacher to track the session and to identify salient learning opportunities. We aim to remove this burden from the teacher by extracting information from the log files of the simulation. Our goal is to find information in the logs that may be useful to a teacher when reviewing a specific session with a class of students.
 
-We introduce switch based models and propose the switching state space model as a good candidate for decomposing the time series that is generated from a session with Connected Worlds. The model breaks the time series into periods that individually are easily interpreted. This work presents an inference algorithm that learns the transition points between successive periods in the time series as well as the internal dynamics that govern each period. This algorithm differs from other switch based inference schemes in that its primary goal is to decompose the time series in a way that is human interpretable.
+We introduce switch based models and propose the switching state space model as a good candidate for decomposing the time series state log data that result from a session with Connected Worlds. The model breaks the time series into periods that individually are easily interpreted. This work presents an inference algorithm that learns the transition points between successive periods in the time series as well as the internal dynamics that govern each period. This algorithm differs from other switch based inference schemes in that its primary goal is to decompose the time series in a way that is human interpretable.
 
 The model was applied to data that was obtained from Connected Worlds and it was used to segment different sessions into multiple periods. Inferred parameters associated with the individual periods were used to generate text-based descriptions of the system dynamics. Two experimental visualizations of the model were designed. These visualizations included the generated text-based descriptions and a movie representation of the system dynamics. The experiments aimed to test the interpretability of the inferred periods and the text descriptions of the dynamics that were present alongside the associated video clip. Our results indicate that the switch based model finds relevant boundaries between salient periods and it generates representative text that describes the period dynamics.
 \end{abstract}
@@ -167,7 +167,7 @@ The model was applied to data that was obtained from Connected Worlds and it was
 
 
 
-\chapter{Conclusion}\label{ch:4}
+\chapter{Future Work and Conclusion}\label{ch:4}
 \input{chapter4}
 
 %%%%%%%%%%%%%%%% BACK MATTER %%%%%%%%%%%%%%%%

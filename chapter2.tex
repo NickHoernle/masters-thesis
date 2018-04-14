@@ -183,6 +183,7 @@ The approximation that \cite{kim1994dynamic} employs is given by:
 Finally, we can use numerical optimization to perform parameter estimation. The Gaussian merging is used to construct a forward filter to approximate the likelihood of the regime parameters and the associated switches. This likelihood is maximized to present an approximate MLE for the parameters. It is worth noting that the optimization is highly susceptible to local maxima due to the tightly coupled nature of the regime parameters and the locations of the switch points. Thus, the numerical optimization might terminate early at these local optima leading to incorrect inferences. This is seen in Section~\ref{sec:experiment1-empirical-validation}.
 
 \subsection{Background on Inference for Probabilistic Models}
+The SSSM is a probabilistic graphical model and a such Bayesian inference techniques are available for approximating the posterior distribution over the latent parameters in the model. Bayesian inference is appealing in this domain as prior knowledge can be built into the model and inference algorithm to assist with this task. In this section, we review techniques for approximating the posterior distribution in a complicated graphical model and motivate Markov Chain Monte Carlo as an appropriate inference tool.
 
 \subsubsection{Introduction to Bayesian Inference}
 
