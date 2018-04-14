@@ -113,9 +113,9 @@ Simulations that combine real world components with interactive digital media pr
 
 % Connected Worlds is introduced to present a case study that motivates the need for providing assistive tools for teachers when working with complex exploratory learning simulations. The multi-person and immersive setting means that it is hard for the teacher to track the session and to identify salient learning opportunities. We aim to remove this burden from the teacher by extracting information from the log files of the simulation. Our goal is to find information in the logs that may be useful to a teacher when reviewing a specific session with a class of students.
 
-We introduce switch based models and propose the switching state space model as a good candidate for decomposing the time series state log data that result from a session with Connected Worlds. The model breaks the time series into periods that individually are easily interpreted. This work presents an inference algorithm that learns the transition points between successive periods in the time series as well as the internal dynamics that govern each period. This algorithm differs from other switch based inference schemes in that its primary goal is to decompose the time series in a way that is human interpretable.
+We introduce switch based models and propose the switching state space model as a good candidate for decomposing the time series state log data that result from a session with Connected Worlds. The model breaks the time series into periods that individually are easily interpreted. This work presents an inference algorithm that learns the transition points between successive periods in the time series as well as the internal dynamics that govern each period. The algorithm differs from other switch based inference schemes in that its primary goal is to decompose the time series in a way that is human interpretable.
 
-The model was applied to data that was obtained from Connected Worlds and it was used to segment different sessions into multiple periods. Inferred parameters associated with the individual periods were used to generate text-based descriptions of the system dynamics. Two experimental visualizations of the model were designed. These visualizations included the generated text-based descriptions and a movie representation of the system dynamics. The experiments aimed to test the interpretability of the inferred periods and the text descriptions of the dynamics that were present alongside the associated video clip. Our results indicate that the switch based model finds relevant boundaries between salient periods and it generates representative text that describes the period dynamics.
+The model was applied to data that was obtained from Connected Worlds and it was used to segment sessions into multiple periods. Inferred parameters associated with the individual periods were used to generate text-based descriptions of the system dynamics. Two experimental visualizations of the model output were designed. These visualizations included the generated text-based descriptions and a movie representation of the system dynamics. The experiments aimed to test the interpretability of the inferred periods and the text descriptions of the dynamics that were present in the associated video clip. Our results indicate that the switch based model finds relevant boundaries between salient periods and it generates representative text that describes the period dynamics.
 \end{abstract}
 
 % Center headings for table of contents, LOT, and LOF and make them smaller so
@@ -134,7 +134,15 @@ The model was applied to data that was obtained from Connected Worlds and it was
 % \listoftables
 \listoffigures
 \begin{acknowledgments}
-  TODO
+	Thank you to the Oppenheimer Memorial Trust, the Harvard IACS, the NSF and my family for helping to make this study period financially feasible.
+
+  To my parents, for always being supportive of my endeavours, no matter how crazy my ideas may seem nor how far they may take me from home. Thank you for your comments, input and encouragement you have given in reading my work and throughout my time at Harvard. Doug, Niki and Ali, thank you for the constant support and for the interest that you have shown in the work that I do.
+  
+  Barbara, thank you for the time and effort that you have committed to this project. It has been an overwhelming privilege to work with you and I have learnt an immense amount from the discussions that we have had. Thank you for taking me on as a masters student and for believing in my ability to undertake this work. To Andee and Leilah, thank you for accepting me to work on the ESSIL project. Your insights and passion for these education tasks are inspiring.
+   
+  To Kobi, thank you for all of the time that you have spent mentoring me over this past year. I appreciate all of your input and I am immensely excited about having the opportunity to continue working with you at Edinburgh.
+   
+   Pavlos, you have been the inspiring rock throughout my time at Harvard. You have supported me from day one and have played a critical role in the learning that I have achieved here. Thank you for being a visionary mentor as well as a supportive friend. I look forward to hearing about how the CSE program moves from strength to strength under your leadership.
 \end{acknowledgments}
 % \begin{dedication}
 %   TODO
