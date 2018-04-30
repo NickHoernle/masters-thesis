@@ -38,6 +38,9 @@
 \newcommand\degreename[1]{\renewcommand\@degreename{#1}}
 \newcommand\@degreename{\ClassError{gsasthesis}{No \noexpand\degreename given}{}}
 
+\newcommand\titleAbstract[1]{\renewcommand\@titleAbstract{#1}}
+\newcommand\@titleAbstract{\ClassError{gsasthesis}{No \noexpand\titleAbstract given}{}}
+
 \newcommand\degreefield[1]{\renewcommand\@degreefield{#1}}
 \newcommand\@degreefield{\ClassError{gsasthesis}{No \noexpand\degreefield given}{}}
 
@@ -52,6 +55,9 @@
 
 \newcommand\principaladvisor[1]{\renewcommand\@principaladvisor{#1}}
 \newcommand\@principaladvisor{\ClassError{gsasthesis}{No \noexpand\principaladvisor given}{}}
+
+\newcommand\externaladvisor[1]{\renewcommand\@externaladvisor{#1}}
+\newcommand\@externaladvisor{\ClassError{gsasthesis}{No \noexpand\externaladvisor given}{}}
 
 % Optional
 \newcommand\secondadvisor[1]{\newcommand\@secondadvisor{#1}}
@@ -109,6 +115,8 @@
         \else
         \emph{Thesis Advisors:}\\
         {\bfseries\@principaladvisor\\\@secondadvisor}
+        \\\emph{External Advisor:}\\
+        {\bfseries\@externaladvisor}
         \fi
       \end{flushleft}
     \end{minipage}
@@ -118,11 +126,11 @@
         {\bfseries\@author}
       \end{flushright}
     \end{minipage}
-    \vspace{2em}
+    \vspace{5em}
     \begin{center}
-      {\large\bfseries\@title}
+      {\large\bfseries\@titleAbstract}
     \end{center}
-    \vspace{2em}
+%     \vspace{2em}
   \end{spacing}
   \addcontentsline{toc}{section}{Abstract}
   \section*{\centering \abstractname}
